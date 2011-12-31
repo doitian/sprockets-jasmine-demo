@@ -14,4 +14,7 @@ end
 group :development, :test do
   gem 'rspec', '~> 2.7.0'
   gem 'jasmine'
+
+  gem 'guard'
+  gem 'guard-livereload'
 end
