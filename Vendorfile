@@ -1,0 +1,7 @@
+# -*- ruby -*-
+
+folder 'vendor/assets/javascripts' do
+  file 'jquery.js', 'http://code.jquery.com/jquery-latest.js'
+end
+
+# vim:ft=ruby
