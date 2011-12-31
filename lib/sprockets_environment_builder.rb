@@ -1,3 +1,5 @@
+require 'sprockets'
+
 class SprocketsEnvironmentBuilder
   def self.build(environment = :development)
     sprockets = Sprockets::Environment.new

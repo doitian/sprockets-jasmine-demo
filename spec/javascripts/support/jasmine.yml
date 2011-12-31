@@ -1,0 +1,15 @@
+src_files:
+  - public/assets/application.js
+
+stylesheets:
+
+helpers:
+  - public/assets/spec_helper.js
+
+spec_files:
+  - specs.js
+
+src_dir:
+
+spec_dir:
+  - public/assets
