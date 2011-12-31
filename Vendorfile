@@ -2,6 +2,13 @@
 
 folder 'vendor/assets/javascripts' do
   file 'jquery.js', 'http://code.jquery.com/jquery-latest.js'
+
+  file 'jasmine.js', 'https://raw.github.com/pivotal/jasmine/master/lib/jasmine-core/jasmine.js'
+  file 'jasmine-html.js', 'https://raw.github.com/pivotal/jasmine/master/lib/jasmine-core/jasmine-html.js'
+end
+
+folder 'vendor/assets/stylesheets' do
+  file 'jasmine.css', 'https://raw.github.com/pivotal/jasmine/master/lib/jasmine-core/jasmine.css'
 end
 
 # vim:ft=ruby

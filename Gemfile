@@ -9,3 +9,9 @@ gem 'therubyracer'
 group :development do
   gem 'vendorer'
 end
+
+
+group :development, :test do
+  gem 'rspec', '~> 2.7.0'
+  gem 'jasmine'
+end

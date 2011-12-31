@@ -6,6 +6,7 @@ class SprocketsEnvironmentBuilder
     sprockets.append_path 'assets/images'
     sprockets.append_path 'vendor/assets/javascripts'
     sprockets.append_path 'vendor/assets/stylesheets'
+    sprockets.append_path 'spec/javascripts'
 
     sprockets
   end
